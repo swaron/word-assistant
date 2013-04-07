@@ -1,0 +1,24 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-30 16:55:41
+hint
+project --topLevelPackage com.tenminutes
+hint
+jpa setup --provider HIBERNATE --database H2_IN_MEMORY 
+hint
+entity jpa --class ~.Timer --testAutomatically 
+hint
+field string --fieldName message --notNull 
+hint web mvc
+web mvc setup
+web mvc all --package ~.web
+hint
+hint web mvc
+hint selenium
+selenium test --controller ~.web.TimerController
+perform tests
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-03 14:43:50
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-03 14:45:36
+perform package
+perform eclipse
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-03 14:57:57
